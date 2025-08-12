@@ -48,7 +48,7 @@
 ### 6. File Extension Suffix Filter
 - **Command**: Find only `.php` endpoints
   ```bash
-  python3 dirsearch -u http://testphp.vulnweb.com --suffix .php
+  dirsearch -u http://testphp.vulnweb.com --suffix .php
   ```
 
 ---
@@ -56,7 +56,7 @@
 ### 7. Save Report in Simple Text Format
 - **Command**: Save output to a simple report file
   ```bash
-  ./dirsearch -u http://testphp.vulnweb.com/ --simple-report=report.txt
+  dirsearch -u http://testphp.vulnweb.com/ --simple-report=report.txt
   ```
 
 ---
@@ -64,11 +64,11 @@
 ### 8. Report in JSON or XML Format
 - **JSON**:
   ```bash
-  ./dirsearch -u http://testphp.vulnweb.com/ --json-report=report.json
+  dirsearch -u http://testphp.vulnweb.com/ --json-report=report.json
   ```
 - **XML**:
   ```bash
-  ./dirsearch -u http://testphp.vulnweb.com/ --xml-report=report.xml
+  dirsearch -u http://testphp.vulnweb.com/ --xml-report=report.xml
   ```
 
 ---
